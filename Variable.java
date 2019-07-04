@@ -11,7 +11,7 @@ public class Variable {
 		
 	System.out.println(" Выпуск Windows "+ windows);
 	System.out.println(" Тип системы " + systemType);
-	System.out.println(" Номер процессора" + numberOfCores);
+	System.out.println(" Номер процессора " + numberOfCores);
 	System.out.println(" Количество процессоров " + cpu);
 	System.out.println(" Частота процессора " + cpuFrequency);
 	System.out.println(" Установленая память " + memory);
