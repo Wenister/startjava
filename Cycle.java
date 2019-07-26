@@ -12,8 +12,7 @@ public class Cycle {
 
 		int result = 0;
 		int z = 10;
-		do {
-			
+		do {	
 			if(z % 2 !=0) {
 				result = result + z;			
 			}
