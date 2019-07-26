@@ -13,7 +13,7 @@ public class ConditionalStatement {
 			System.out.println(" Я мужчина ");
 		}
 
-		if (!isMan==false) {
+		if (!isMan) {
 			System.out.println(" Я женщина ");
 		}
 
@@ -23,9 +23,9 @@ public class ConditionalStatement {
 			System.out.println(" Можно подумать и о волейболе ");
 		}
 
-		if (name== 'M') {
+		if (name == 'M') {
 			System.out.println(" I'm Mihail ");
-		} else if (name== 'I') {
+		} else if (name == 'I') {
 			System.out.println(" I'm Ingrid ");
 		} else {
 			System.out.println(" Your name is strange ");
