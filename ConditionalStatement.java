@@ -13,7 +13,7 @@ public class ConditionalStatement {
 			System.out.println(" Я мужчина ");
 		}
 
-		if (!isMan==true) {
+		if (!isMan==false) {
 			System.out.println(" Я женщина ");
 		}
 
