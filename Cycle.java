@@ -4,20 +4,20 @@ public class Cycle {
 			System.out.println(" Значение " + i);
 		}
 
-		int y = 6;
-		while (y >= -6) {
-			System.out.println(" Значение " + y);
-			y -= 2;			
+		int counter = 6;
+		while (counter >= -6) {
+			System.out.println(" Значение " + counter);
+			counter -= 2;			
 		}
 
-		int result = 0;
-		int z = 10;
-		do {	
-			if(z % 2 !=0) {
-				result = result + z;			
+		int sumOdd = 0;
+		int counter1 = 10;
+		do {			
+			if(counter1 % 2 != 0) {
+				sumOdd += counter1;			
 			}
-			z++;
-		} while (z<=20);
-		System.out.println(" " + result);		
+			counter1++;
+		} while (counter1 <= 20);
+		System.out.println(" Сумма нечётных чисел в диапазоне от 10 до 20 ровна " + sumOdd);		
 	}
 }
